@@ -1,5 +1,10 @@
 <?php
  
+$ rake assets:precompile
+$ git add .
+$ git commit -m "Add precompiled assets for Heroku"
+$ git push heroku master
+ 
 $strAccessToken = "zj9ogZu/30Rx801lMdNzvRLAoBKXE3HvhxQy2LJExxjsn7LmmQk+7LWBtwtmTetMpubO3wj0WVfjjdxKdreVCpEURekR90KEfQwdGykVDd3GS48wZnYjZx14IEiMLeQkF547WaRrKbQFpFjFIlrcGwdB04t89/1O/w1cDnyilFU=";
  
 $content = file_get_contents('php://input');
